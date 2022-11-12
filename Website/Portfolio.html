@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Maarten Reynders">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name = "keywords" content="Portfolio, CV, Curiculum Vitae">
+
+        <title> Portfolio van Maarten Reynders </title>
+
+        <link rel="stylesheet" href="style.css">    <!--linken naar css stylesheet-->
+        <script src="Script.js"></script>    <!--javascript linken-->
+    </head>
+
+    <body>
+
+        <!--Hier maken we de button nav menu.-->
+        <span class="menuButton" onclick="openNav()"> &#9776; </span>
+        <div class="vertical-menu" id="navMenu">
+            <a href="javascript:void(0)" class="closeButton" onclick="closeNav()"> &#9776; </a>
+            <a href="Index.html" class="active"> Home </a>
+            <a href="Portfolio.html"> Portfolio </a>
+            <a href="CV.html"> Curiculum Vitae</a>
+            <a href="Over.html"> Over </a>
+            <a href="Contact.html"> Contact </a>
+        </div>
+
+        <h1> Portfolio </h1>
+
+        <div class="main"> 
+            <p> 
+                Hier vind je mijn portfolio waar mijn vertschillende projecten beschreven staan en de skills die ik hier voor nodig had:
+            </p>
+        </div>
+
+        <div class="main">
+            <table>
+
+                <!--De headers van de table-->
+                <tr>
+                    <th> Project </th>
+                    <th> Skills </th>
+                    <th> Beschrijving </th>
+                </tr>
+
+                <!--Project en skills (table inhoud)-->
+                <tr>
+                    <td> Mijn website </td>
+                    <td> HTML, CSS, Javasript</td>
+                    <td> Hier heb ik de website geschreven waar je nu op zit.</td>
+                </tr>
+
+                <tr>
+                    <td> Programmeren 1</td>
+                    <td> C# </td>
+                    <td> Console programma in c# </td>
+                </tr>
+
+                <tr>
+                    <td> Programmeren 2</td>
+                    <td> C# </td>
+                    <td> Console programma in c# </td>
+                </tr>
+
+                <tr>
+                    <td> Programmeren 3</td>
+                    <td> C# </td>
+                    <td> Console programma in c#</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="portfolioLogos">
+            <img class="eersteImage" src="images/csharp-logo.png" alt="Logo van c-sharp">
+            <img src="images/html5-logo.png" alt="Logo van HTML5">
+            <img src="images/css3-logo.png" alt="Logo van CSS3">
+            <img src="images/javascript-logo.png" alt="Logo van javascript">
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(to right, rgb(2, 32, 129),aqua);
+    color: black;
+}
+
+.vertical-menu{
+    height:100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: rgb(2, 32, 129);
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+.vertical-menu a{
+    background-color: rgb(2, 32, 129);
+    color: rgb(168, 168, 168);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.vertical-menu a:focus{
+    background-color: blue;
+    color: white;
+}
+
+.menuButton{
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+}
+
+.main {
+    margin-left: 20%;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+h1{
+    margin-left: 50%;
+    padding: 0px 10px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+table{
+    width: 100%;
+}
+
+td,th{
+    border: 1px solid black;
+}
+
+.portfolioLogos img{
+    width: 100px;
+    height: 100px;
+}
+.eersteImage{
+    margin-left: 20%;
+    margin-top: 20%;
+    padding: 0px 10px;
+}
+
+/* When the screen is max-height: 450px then we do something. */ 
+@media screen and (max-height: 450px) {
+  .vertical-menu {padding-top: 15px;}
+  .vertical-menu a {font-size: 18px;}
+}
