@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Maarten Reynders">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name = "keywords" content="Portfolio, CV, Curiculum Vitae">
+
+        <title> Portfolio van Maarten Reynders </title>
+
+        <link rel="stylesheet" href="style.css">    <!--linken naar css stylesheet-->
+        <script src="script.js"></script>    <!--javascript linken-->
+    </head>
+
+    <body>
+
+        <!--Hier maken we de button nav menu.-->
+        <span class="menuButton" onclick="openNav()"> &#9776; </span>
+        <div class="vertical-menu" id="navMenu">
+            <a href="javascript:void(0)" class="closeButton" onclick="closeNav()"> &#9776; </a>
+            <a href="index.html" class="active"> Home </a>
+            <a href="portfolio.html"> Portfolio </a>
+            <a href="cv.html"> Curiculum Vitae</a>
+            <a href="over.html"> Over </a>
+            <a href="contact.html"> Contact </a>
+        </div>
+
+        <h1> Portfolio </h1>
+
+        <div class="main"> 
+            <p> 
+                Hier vind je mijn portfolio waar mijn verschillende projecten beschreven staan en de skills die ik hier voor nodig had:
+            </p>
+        </div>
+
+        <div class="main">
+            <table>
+
+                <!--De headers van de table-->
+                <tr>
+                    <th> Project </th>
+                    <th> Skills </th>
+                    <th> Beschrijving </th>
+                </tr>
+
+                <!--Project en skills (table inhoud)-->
+                <tr>
+                    <td> Mijn website </td>
+                    <td> HTML, CSS, Javasript</td>
+                    <td> De website geschreven waar je nu op bent.</td>
+                </tr>
+
+                <tr>
+                    <td> Oefening 03.05 Kwadranten</td>
+                    <td> C# </td>
+                    <td> Console applicatie geschreven om kwadranten te bepalen aan de hand van coordinaten.</td>
+                </tr>
+
+                <tr>
+                    <td> Oefening 04.05 Tussen 2 getallen</td>
+                    <td> C# </td>
+                    <td> Console applicatie die 2 getallen inleest en alle getallen tussen die twee geeft. </td>
+                </tr>
+
+                <tr>
+                    <td> Oefening 05.05 Pijlen gooien</td>
+                    <td> C# </td>
+                    <td> Console applicatie waar je de landingsplaats ingeeft van je pijlen en een score terug krijgt.</td>
+                </tr>
+
+                <tr>
+                    <td> Oefening 06.05 Studenten Scores</td>
+                    <td> C# </td>
+                    <td> Console applicatie die de namen en scores van studenten opvraagt en dan een overzicht afprint van alle studenten.</td>
+                </tr>
+
+                <tr>
+                    <td> Oefening 07.05 Getallen Lijst</td>
+                    <td> C# </td>
+                    <td> Console applicatie dat vraagt om getallen in te geven en het laagste, hoogste en gemiddelde terug geeft.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="portfolioLogos">
+            <img class="eersteImage" src="images/c-sharp.png" alt="Logo van c-sharp">
+            <img src="images/html5.png" alt="Logo van HTML5">
+            <img src="images/css3.png" alt="Logo van CSS3">
+            <img src="images/javascript.png" alt="Logo van javascript">
+        </div>
+
+    </body>
+
+</html>
