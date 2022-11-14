@@ -206,4 +206,28 @@ td,th{
     .right {
       left: 0%;
     }
+
+
+    .vertical-menu{
+      width: 0px;
+    }
+
+    .main{
+      margin-left: 0;
+      font-size: 15px;
+    }
+
+    table{
+      font-size: 15px;
+
+    }
+
+    .contactFormulier textarea{
+      max-width: 300px;
+    }
+
+    .hobbyTable img{
+      max-height: 140px;
+      max-width: 150px;
+    }
   }
