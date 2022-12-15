@@ -45,9 +45,6 @@ td,th{
     height: 100px;
     float: left;
 }
-.padding-div{
-  padding-bottom: 250px;
-}
 
 footer{
   padding-top: 30px;
@@ -151,6 +148,10 @@ footer{
 .card{
   background-color: black;
   color: white;
+}
+
+.bottom-padding{
+  padding-bottom: 150px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
