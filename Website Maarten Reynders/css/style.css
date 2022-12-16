@@ -5,8 +5,8 @@
 body{
 
     margin-top: 5%;
-    background-image: linear-gradient(to right, rgb(2, 32, 129),aqua);
-    color: black;
+    background-image: linear-gradient(to bottom, rgb(0 , 0, 0),rgb(6, 43, 6));
+    color: green;
 }
 
 .main {
@@ -15,11 +15,11 @@ body{
     padding: 0px 10px;
 }
 
-h1{
+.my-heading-1{
     margin-left: 40%;
     margin-top: 10%;
     padding: 0px 10px;
-    color: aliceblue;
+    color: greenyellow;
     text-decoration: underline;
 }
 
@@ -76,7 +76,7 @@ footer{
   content: "";
   position: absolute;
   width: 6px;
-  background-color: black;
+  background-color: rgb(54, 54, 54);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -98,7 +98,7 @@ footer{
   height: 25px;
   right: -13px;
   background-color: black;
-  border: 5px solid orange;
+  border: 5px solid green;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -147,11 +147,11 @@ footer{
 
 .card{
   background-color: black;
-  color: white;
+  color: green;
 }
 
 .bottom-padding{
-  padding-bottom: 150px;
+  padding-bottom: 250px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
