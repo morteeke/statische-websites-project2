@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+.carousel-item{
+  background: #777;
+  color: white;
+  position: relative;
+}
+
+.carousel-item > img{
+  height: 200px;
+}
+
 .toggler-div{
   padding-left: 1%;
 }
@@ -154,7 +164,7 @@ footer{
 }
 
 .bottom-padding{
-  padding-bottom: 250px;
+  padding-bottom: 500px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
