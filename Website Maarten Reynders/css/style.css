@@ -9,7 +9,12 @@
 }
 
 .carousel-item > img{
-  height: 200px;
+  height: 300px;
+}
+
+.carousel-inner{
+  width: 300px;
+  margin-left: 40%;
 }
 
 .toggler-div{
@@ -20,11 +25,10 @@ body{
 
     margin-top: 5%;
     background-image: linear-gradient(to bottom, rgb(0 , 0, 0),rgb(6, 43, 6));
-    color: green;
+    color: greenyellow;
 }
 
 .main {
-    margin-left: 10%;
     font-size: 20px;
 }
 
@@ -47,13 +51,11 @@ table{
 }
 
 td,th{
-    border: 1px solid black;
+    border: 1px solid greenyellow;
 }
 
-.eersteImage{
-  margin-left: 30%;
-}
 .portfolioLogos img{
+  position: center;
     width: 70px;
     height: 60px;
     float: left;
@@ -61,7 +63,6 @@ td,th{
 
 footer{
   padding-top: 0px;
-  margin-left: 50%;
   color: white;
   max-height: 100px;
 }
@@ -111,7 +112,7 @@ footer{
   height: 25px;
   right: -13px;
   background-color: black;
-  border: 5px solid green;
+  border: 5px solid greenyellow;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -160,11 +161,11 @@ footer{
 
 .card{
   background-color: black;
-  color: green;
+  color: greenyellow;
 }
 
 .bottom-padding{
-  padding-bottom: 500px;
+  padding-bottom: 150px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
